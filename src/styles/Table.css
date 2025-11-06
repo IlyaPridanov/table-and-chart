@@ -1,0 +1,43 @@
+/* table */
+
+.table {
+    width: 100%;
+
+    border-spacing: 5px;
+}
+
+.table tr:hover {
+    cursor: pointer;
+}
+
+.table tr:hover th,
+.table tr:hover td {
+    opacity: 0.6;
+}
+
+.table__caption {
+    padding: 7px;
+    font-weight: 400;
+    text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table__name {
+    padding: 7px;
+    font-weight: 400;
+
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table__item {
+    padding: 7px;
+    font-weight: 400;
+    text-align: right;
+
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table__percent {
+    margin-left: 15px;
+}
