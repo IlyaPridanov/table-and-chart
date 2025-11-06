@@ -2,50 +2,50 @@
   "table": {
     "columns": [
       "Показатель",
-      "Текущий день",
+      "Текущий день", 
       "Вчера",
       "Этот день недели"
     ],
     "data": [
       {
         "indicator": "Выручка, руб",
-        "current_day": "500 521",
+        "current_day": "500521",
         "yesterday": {
-          "value": "480 521",
+          "value": "480521",
           "percent": "4%"
         },
-        "same_week_day": "4 805 121"
+        "same_week_day": "4805121"
       },
       {
         "indicator": "Наличные",
-        "current_day": "300 000",
+        "current_day": "300000",
         "yesterday": {
-          "value": "300 000",
+          "value": "300000",
           "percent": "0%"
         },
-        "same_week_day": "300 000"
+        "same_week_day": "300000"
       },
       {
         "indicator": "Безналичный расчёт",
-        "current_day": "100 000",
+        "current_day": "100000",
         "yesterday": {
-          "value": "100 000",
+          "value": "100000",
           "percent": "0%"
         },
-        "same_week_day": "100 000"
+        "same_week_day": "100000"
       },
       {
         "indicator": "Кредитные карты",
-        "current_day": "100 521",
+        "current_day": "100521",
         "yesterday": {
-          "value": "100 521",
+          "value": "100521",
           "percent": "0%"
         },
-        "same_week_day": "100 521"
+        "same_week_day": "100521"
       },
       {
         "indicator": "Средний чек, руб",
-        "current_day": "1 300",
+        "current_day": "1300",
         "yesterday": {
           "value": "900",
           "percent": "44%"
@@ -54,7 +54,7 @@
       },
       {
         "indicator": "Средний гость, руб",
-        "current_day": "1 200",
+        "current_day": "1200",
         "yesterday": {
           "value": "800",
           "percent": "50%"
@@ -63,18 +63,18 @@
       },
       {
         "indicator": "Удаления из чека (после оплаты), руб",
-        "current_day": "1 000",
+        "current_day": "1000",
         "yesterday": {
-          "value": "1 100",
+          "value": "1100",
           "percent": "-9%"
         },
         "same_week_day": "900"
       },
       {
         "indicator": "Удаления из чека (до оплаты), руб",
-        "current_day": "1 300",
+        "current_day": "1300",
         "yesterday": {
-          "value": "1 300",
+          "value": "1300",
           "percent": "0%"
         },
         "same_week_day": "900"

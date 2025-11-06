@@ -6,15 +6,6 @@
     border-spacing: 5px;
 }
 
-.table tr:hover {
-    cursor: pointer;
-}
-
-.table tr:hover th,
-.table tr:hover td {
-    opacity: 0.6;
-}
-
 .table__caption {
     padding: 7px;
     font-weight: 400;
@@ -40,4 +31,46 @@
 
 .table__percent {
     margin-left: 15px;
+}
+
+.table__row {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.table__row:hover {
+  background-color: #f8f9fa;
+}
+
+.table__row--active {
+  background-color: #e3f2fd !important;
+  border-left: 3px solid #2196f3;
+}
+
+.table__chart-row {
+  background-color: #fafafa;
+}
+
+.table__chart {
+  padding: 20px;
+  background: white;
+  border: 1px solid #e0e0e0;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.table__chart-row {
+  background-color: #fafafa;
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

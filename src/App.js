@@ -1,6 +1,5 @@
 import TableComponent from './components/TableComponent';
 import tableData from './data/tableData.json';
-import 'normalize.css';
 import './App.css';
 
 function App() {
